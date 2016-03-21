@@ -30,6 +30,7 @@ export default Ember.Component.extend({
         maxDate: this.get('maxDate') || null,
         theme: this.get('theme') || null,
         showWeekNumber: this.get('showWeekNumber') || null,
+        disableDayFn: this.get('disableDayFn') || null
       };
       if (isPresent(this.get('position'))) {
         options['position'] = this.get('position');
