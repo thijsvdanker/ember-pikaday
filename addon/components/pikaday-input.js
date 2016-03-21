@@ -26,7 +26,8 @@ export default Ember.Component.extend({
         yearRange: that.determineYearRange(),
         minDate: this.get('minDate') || null,
         maxDate: this.get('maxDate') || null,
-        theme: this.get('theme') || null
+        theme: this.get('theme') || null,
+        showWeekNumber: this.get('showWeekNumber') || null,
       };
 
       if (this.get('i18n')) {
